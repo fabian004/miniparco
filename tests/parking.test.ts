@@ -6,7 +6,6 @@ const token = jwt.sign({ user: "user" }, process.env.SECRET_KEY!, { expiresIn: '
 
 
 describe('POST /api/parking', () => {
-  // ... (prueba existente)
 
   it('should fail if parking spots are less than 50', async () => {
     const res = await request(app)

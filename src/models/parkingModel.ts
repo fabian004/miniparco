@@ -47,12 +47,12 @@ Parking.init({
   createdAt: {
     type: DataTypes.DATE,
     allowNull: false,
-    field: 'created_at'  // Define el nombre real de la columna en la base de datos
+    field: 'created_at'
   },
   updatedAt: {
     type: DataTypes.DATE,
     allowNull: false,
-    field: 'updated_at'  // Define el nombre real de la columna en la base de datos
+    field: 'updated_at'
   }
   
 }, {

@@ -9,7 +9,7 @@ const app: Application = express();
 app.use(express.json());
 app.use('/api/parking', parkingRoutes);
 
-const PORT: number | string = process.env.PORT || 3500;
+const PORT: number | string = process.env.PORT || 3000;
 
 if (process.env.NODE_ENV !== 'test') {
   sequelize.authenticate()
